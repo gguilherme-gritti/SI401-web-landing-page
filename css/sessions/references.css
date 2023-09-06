@@ -1,0 +1,24 @@
+.references {
+    width: 100vw;
+    height: 120vh;
+}
+.references .describe-area {
+    height: 40%;
+    width: 50%;
+}
+.references .content {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    justify-content: justify;
+    gap: 15px;
+}
+.references .content strong {
+    letter-spacing: .1em;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.references .content p {
+    line-height: 1.3rem;
+    color: #738392;
+}

@@ -11,39 +11,48 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="stylesheet" href="./css/sessions/criteria.css">
+    <link rel="stylesheet" href="./css/sessions/ementa.css">
+    <link rel="stylesheet" href="./css/sessions/goal.css">
+    <link rel="stylesheet" href="./css/sessions/presentation.css">
+    <link rel="stylesheet" href="./css/sessions/references.css">
+    <link rel="stylesheet" href="./css/sessions/topics.css">
+
 </head>
 
 <body>
     <main>
         <navbar>
-            <div class="header">
+            <div class="header align-center">
                 <div class="hd-img">
-                    <img src="assets/images/unicamp.png">
+                    <a href="#apresentacao"><img src="assets/images/unicamp.png"></a>
                 </div>
                 <div class="hd-navs">
                     <ul class="navbar">
-                        <li><a>Ementa</a></li>
-                        <li><a>Objetivo</a></li>
-                        <li><a>Tópicos</a></li>
-                        <li><a>Critérios</a></li>
-                        <li><a>Referências</a></li>
+                        <li><a href="#ementa">Ementa</a></li>
+                        <li><a href="#objetivo">Objetivo</a></li>
+                        <li><a href="#topicos">Tópicos</a></li>
+                        <li><a href="#criterios">Critérios</a></li>
+                        <li><a href="#referencias">Referências</a></li>
                     </ul>
                 </div>
             </div>
         </navbar>
-        <section class="presentation">
-            <div class="describe-area">
-                <div class="content">
+        <section class="presentation" id="apresentacao">
+            <div class="describe-area align-center">
+                <div class="d-flex-column">
                     <strong>Faculdade de Tecnologia da Unicamp</strong>
                     <h1>Programação para Web</h1>
                     <p>Explore tudo o que você precisa saber sobre a disciplina: ementa, objetivos, tópicos, referências
                         e metodos de avaliação.</p>
-                    <button>Ver mais</button>
+                        <!-- to do a -->
+                    <button><a href="#ementa">Ver mais</a></button>
                 </div>
             </div>
         </section>
-        <section class="ementa">
-            <div class="describe-area">
+        <section class="ementa" id="ementa">
+            <div class="describe-area align-center d-flex-column">
                 <h2>Ementa da Disciplina</h2>
                 <p>Pontos essenciais da matéria, resumo do conteúdo a ser visto para aprendizagem.</p>
             </div>
@@ -81,8 +90,8 @@
             </div>
             <div class="bottom"></div>
         </section>
-        <section class="goal">
-            <div class="describe-area">
+        <section class="goal" id="objetivo">
+            <div class="describe-area align-center d-flex-column">
                 <h2>Objetivo</h2>
                 <p>Colocar em perspectiva a programação para Web. Capacitar
                     o aluno a compreender as principais linguagens de
@@ -94,15 +103,15 @@
             <div class="bottom"></div>
 
         </section>
-        <section class="topics">
-            <div class="describe-area">
+        <section class="topics" id="topicos">
+            <div class="describe-area align-center d-flex-column">
                 <h2>Tópicos</h2>
                 <p>Conteúdo programático e segmentação de aprendizado.</p>
             </div>
             <div class="content">
                 <div class="card">
                     <div class="header">
-                        <span class="circle">1</span>
+                        <span class="circle align-center">1</span>
                         <p>Funcionamento da Web</p>
                     </div>
                     <div class="description">
@@ -115,7 +124,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">2</span>
+                        <span class="circle align-center">2</span>
                         <p>(HTML) e estrutura de documentos</p>
                     </div>
                     <div class="description">
@@ -127,7 +136,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">3</span>
+                        <span class="circle align-center">3</span>
                         <p>Exemplos de elementos HTML</p>
                     </div>
                     <div class="description">
@@ -139,7 +148,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">4</span>
+                        <span class="circle align-center">4</span>
                         <p>O elemento HEAD de HTML</p>
                     </div>
                     <div class="description">
@@ -151,7 +160,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">5</span>
+                        <span class="circle align-center">5</span>
                         <p>Layouts via HTML</p>
                     </div>
                     <div class="description">
@@ -163,7 +172,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">6</span>
+                        <span class="circle align-center">6</span>
                         <p>Cascade Style Sheets (CSS)</p>
                     </div>
                     <div class="description">
@@ -175,7 +184,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">7</span>
+                        <span class="circle align-center">7</span>
                         <p>(CSS): Propriedades</p>
                     </div>
                     <div class="description">
@@ -187,7 +196,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">8</span>
+                        <span class="circle align-center">8</span>
                         <p> (CSS): modelo de caixas</p>
                     </div>
                     <div class="description">
@@ -199,7 +208,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">9</span>
+                        <span class="circle align-center">9</span>
                         <p>JavaScript: definições, sintaxe, DOM</p>
                     </div>
                     <div class="description">
@@ -211,7 +220,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">10</span>
+                        <span class="circle align-center">10</span>
                         <p>Reação a eventos via JS</p>
                     </div>
                     <div class="description">
@@ -223,7 +232,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">11</span>
+                        <span class="circle align-center">11</span>
                         <p>Formulários HTML via JavaScript</p>
                     </div>
                     <div class="description">
@@ -236,7 +245,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">12</span>
+                        <span class="circle align-center">12</span>
                         <p>Orientação a objetos em JavaScript</p>
                     </div>
                     <div class="description">
@@ -248,7 +257,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">13</span>
+                        <span class="circle align-center">13</span>
                         <p>Back-end com PHP</p>
                     </div>
                     <div class="description">
@@ -260,7 +269,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">14</span>
+                        <span class="circle align-center">14</span>
                         <p>(PHP): Operadores, estruturas
                             e funções.</p>
                     </div>
@@ -272,7 +281,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">15</span>
+                        <span class="circle align-center">15</span>
                         <p>PHP e formulários HTML</p>
                     </div>
                     <div class="description">
@@ -284,7 +293,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">16</span>
+                        <span class="circle align-center">16</span>
                         <p>Orientação a objetos em PHP</p>
                     </div>
                     <div class="description">
@@ -296,7 +305,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">17</span>
+                        <span class="circle align-center">17</span>
                         <p>Acesso a Bancos de Dados em PHP</p>
                     </div>
                     <div class="description">
@@ -307,7 +316,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">18</span>
+                        <span class="circle align-center">18</span>
                         <p>Cookies e sessões em PHP</p>
                     </div>
                     <div class="description">
@@ -320,7 +329,7 @@
                 </div>
                 <div class="card">
                     <div class="header">
-                        <span class="circle">19</span>
+                        <span class="circle align-center">19</span>
                         <p>Comunicação assíncrona de dados</p>
                     </div>
                     <div class="description">
@@ -332,8 +341,8 @@
                 </div>
             </div>
         </section>
-        <section class="criteria">
-            <div class="describe-area">
+        <section class="criteria" id="criterios">
+            <div class="describe-area align-center d-flex-column">
                 <h2>Critérios de Avaliação</h2>
                 <p>
                     Parâmetros estabelecidos para julgar a qualidade ou desempenho,
@@ -345,7 +354,7 @@
                 <div class="side">
                     <div class="item">
                         <div class="item-header">
-                            <span class="circle">1</span>
+                            <span class="circle align-center">1</span>
                         </div>
                         <div class="item-description">
                             <h3>Avaliação</h3>
@@ -361,7 +370,7 @@
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="circle">2</span>
+                            <span class="circle align-center">2</span>
                         </div>
                         <div class="item-description">
                             <h3>Nota Final do Projeto</h3>
@@ -370,7 +379,7 @@
                     </div>
                     <div class="item">
                         <div class="item-header">
-                            <span class="circle">3</span>
+                            <span class="circle align-center">3</span>
                         </div>
                         <div class="item-description">
                             <h3>Média Final</h3>
@@ -384,8 +393,8 @@
             </div>
             <div class="bottom"></div>
         </section>
-        <section class="references">
-            <div class="describe-area">
+        <section class="references" id="referencias">
+            <div class="describe-area align-center d-flex-column">
                 <h2>Referências</h2>
                 <p>
                     Links externos e boas bases para consulta e estudos de acordo com o conteudo da disciplina.

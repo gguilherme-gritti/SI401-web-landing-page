@@ -1,0 +1,19 @@
+.presentation {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/images/patternTop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.presentation .describe-area {
+    width: 50%;
+    height: 100%;
+}
+.presentation .describe-area strong {
+    letter-spacing: .1em;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+

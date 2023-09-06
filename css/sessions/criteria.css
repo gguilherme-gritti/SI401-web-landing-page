@@ -1,0 +1,65 @@
+.criteria {
+    width: 100vw;
+    height: 145vh;
+}
+.criteria .describe-area {
+    height: 50%;
+    width: 50%;
+}
+.criteria .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85%;
+    justify-content: center;
+}
+.criteria .content .side {
+    width: 50%;
+    height: 100%;
+}
+.criteria .item {
+    max-height: 350px;
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+    margin-bottom: 40px;
+}
+.criteria .item-header {
+    height: 100%;
+}
+.criteria .item-header span {
+    height: 35px;
+    width: 35px;
+}
+
+.criteria .item-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.criteria .item-description p {
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    color: #738392;
+    letter-spacing: .005em;
+}
+.criteria h3 {
+    color: black;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+.criteria .side img {
+    height: 85%;
+}
+.criteria .bottom {
+    background-image: url('../../assets/images/patternBottom.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
